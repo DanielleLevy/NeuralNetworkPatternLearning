@@ -4,13 +4,7 @@ This project implements a genetic algorithm-based approach to identify patterns 
 ## Prerequisites
 Python 3.x
 Standard libraries: numpy, random, matplotlib
-## Requirements
-Files
-- enc.txt: The input cipher text that needs to be decrypted.
-- dict.txt: A text file containing a list of English words. This is used to evaluate the fitness of the decrypted text.
-- Letter_Freq.txt: A text file containing the frequencies of individual English letters.
-- Letter2_Freq.txt: A text file containing the frequencies of letter pairs in English.
-THE FILES ARE ALREADY IN THE REPO , if you want to replace then after the clone make sure it will be the same names as above.
+
 ## Getting Started- Instructions
 Based Windows
 write the following in the treminal or powershell and press enter:
