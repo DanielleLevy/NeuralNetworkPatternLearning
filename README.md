@@ -4,28 +4,49 @@ This project implements a genetic algorithm-based approach to identify patterns 
 ## Prerequisites
 Python 3.x
 Standard libraries: numpy, random, matplotlib
-## Usage
-Clone the repository or download the source code.
+## Requirements
+Files
+- enc.txt: The input cipher text that needs to be decrypted.
+- dict.txt: A text file containing a list of English words. This is used to evaluate the fitness of the decrypted text.
+- Letter_Freq.txt: A text file containing the frequencies of individual English letters.
+- Letter2_Freq.txt: A text file containing the frequencies of letter pairs in English.
+THE FILES ARE ALREADY IN THE REPO , if you want to replace then after the clone make sure it will be the same names as above.
+## Getting Started- Instructions
+Based Windows
+write the following in the treminal or powershell and press enter:
 
-Open the terminal or command prompt and navigate to the project directory.
+git clone https://github.com/DanielleLevy/NeuralNetworkPatternLearning.git
+### 2 Ways to run:
+#### first way:
 
-Run the GUI program by executing the following command:
+write the following in the terminal or powershell , after each one press enter:
 
-Copy code
-python gui.py
-The GUI window will open, allowing you to choose the options and input files for building and running the neural networks.
+1. cd NeuralNetworkPatternLearning
+2. Place the file input in the same directory as the gui.py script.
+2. ./gui.exe
 
-Fill in the file paths for the training and test files in the GUI.
+##### NOTE : if you run from the CMD you should write: 
 
+1. cd NeuralNetworkPatternLearning
+
+2. gui.exe
+
+
+#### second way:
+Go to the folder where the Repo file is located and double-click on the EXE file.
+
+
+
+A GUI window will appear, allowing you to write the name of the files and choose which alforithem to run.
 Click the "Run buildnet" button to start the genetic algorithm-based network building process. This may take some time.
-
 Once the building process is complete, a file named wnet.txt will be generated, which contains the network structure and weights.
+In the buildnet, The algorithm will run for the specified number of generations or until convergence is reached (10 generations with no improvement in the average score).
 
-Fill in the file paths for the structure file (wnet.txt) and the data file for classification in the GUI.
 
 Click the "Run runnet" button to run the neural network on the test data. The classification results will be saved in an output file.
-
 View the output file to see the predicted classifications for the test data.
+
+
 
 ## File Descriptions
 gui.py: GUI program for selecting options and input files, and running the buildnet and runnet programs.
