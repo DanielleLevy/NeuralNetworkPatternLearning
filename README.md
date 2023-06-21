@@ -16,7 +16,7 @@ git clone https://github.com/DanielleLevy/NeuralNetworkPatternLearning.git
 write the following in the terminal or powershell , after each one press enter:
 
 1. cd NeuralNetworkPatternLearning
-2. Place the file input in the same directory as the gui.py script.
+2. Place the file input in the same directory as the gui.py script(the wnet0.txt and the wnet1.txt will already be there).
 2. ./gui.exe
 
 ##### NOTE : if you run from the CMD you should write: 
