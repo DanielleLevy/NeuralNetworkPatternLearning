@@ -44,11 +44,13 @@ View the output file to see the predicted classifications for the test data.
 
 ## File Descriptions
 gui.py: GUI program for selecting options and input files, and running the buildnet and runnet programs.
+
 buildnet.py: Module for running the genetic algorithm-based network building process.
+
 runnet.py: Module for running the neural network on new data for classification.
+
 main.py: Main module containing the core functions for loading data, fitness scoring, evolution operators, and running the genetic algorithm.
-##Data Files
-The project requires two data files named nn0.txt and nn1.txt, which contain 20,000 binary strings each with a corresponding legality label (0 or 1). nn0.txt is easier to identify the legality, while nn1.txt is more difficult.
+
 
 ## Outputs
 The output of the buildnet program is the wnet.txt file, which contains the definitions of the network structure and the weights of the built network.
