@@ -34,7 +34,7 @@ Go to the folder where the Repo file is located and double-click on the EXE file
 A GUI window will appear, allowing you to write the name of the files and choose which alforithem to run.
 Click the "Run buildnet" button to start the genetic algorithm-based network building process. This may take some time.
 Once the building process is complete, a file named wnet.txt will be generated, which contains the network structure and weights.
-In the buildnet, The algorithm will run for the specified number of generations or until convergence is reached (10 generations with no improvement in the average score).
+In the buildnet, The algorithm will run for the specified number of generations or until convergence is reached (10 generations with no improvement in the best score).
 
 
 Click the "Run runnet" button to run the neural network on the test data. The classification results will be saved in an output file.
